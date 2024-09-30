@@ -15,4 +15,4 @@ Thumbs.db
 
 # Build output
 dist/
-build/
+build/g
