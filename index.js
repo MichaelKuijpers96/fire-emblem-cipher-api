@@ -7,7 +7,7 @@ app.use(express.json());
 
 const cardRoutes = require('./routes/cards')
 //Import the card routes
-app.use(`/cards`, cardRoutes)
+app.use(`/`, cardRoutes)
 
 //Star the server
 app.listen(port, () => {
